@@ -1,5 +1,5 @@
 /*
-    Name: 
+    Name: Luke Lunzer 
 */
 
 :root{
@@ -135,6 +135,8 @@ nav{
 nav ul{
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
     /* Styles were added here to arrange the content, I used flexbox */
     /* TO DO */
 }
@@ -163,6 +165,8 @@ nav a svg{
 nav a span{
     display: block;
     position: relative;
+    top: -135px;
+    z-index: 1;
     /* Styles were added here to arrange the content, I used top and z-index for this */
     /* TO DO */
 }
@@ -222,6 +226,7 @@ p{
 #plants{
     background-color: var(--wht);
     padding: 96px 32px;
+    grid: 3 / 1fr;
     /* Styles were added here to arrange the content, I used grid */
     /* TO DO */
 }
@@ -234,6 +239,7 @@ p{
 #plants section{
     /* Styles were added here to arrange the content, I used flexbox */
     /* TO DO */
+    flexbox: 1;
     margin: 32px auto 0;
 }
 
@@ -263,6 +269,9 @@ p{
 #contact{
     color: var(--wht);
     padding: 64px 32px;
+    display: grid;
+    grid-column: span 2;
+    gap: 5px;
     /* Styles were added here to arrange the content, I used grid */
     /* TO DO */
 }
